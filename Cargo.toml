@@ -1,0 +1,16 @@
+[package]
+name = "new-bamboo"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+name = "real_bamboo"
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "app"
+path = "src/app/app.rs"
+
+[dependencies]
+termion = "2.0.1"
